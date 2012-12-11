@@ -261,7 +261,7 @@
                             <tableViewSection id="wYC-SD-XDD">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="200" id="kp4-OA-s96">
-                                        <rect key="frame" x="0.0" y="24" width="768" height="202"/>
+                                        <rect key="frame" x="0.0" y="24" width="768" height="201"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="45" y="1" width="678" height="199"/>
@@ -304,7 +304,7 @@
                             <tableViewSection id="lvH-F1-qku">
                                 <cells>
                                     <tableViewCell opaque="NO" alpha="0.0" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="153" id="FGE-ul-1hv">
-                                        <rect key="frame" x="0.0" y="233" width="768" height="155"/>
+                                        <rect key="frame" x="0.0" y="233" width="768" height="154"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="45" y="1" width="678" height="152"/>
@@ -411,7 +411,7 @@
                             <tableViewSection id="uKL-xZ-25F">
                                 <cells>
                                     <tableViewCell alpha="0.0" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="408" id="65K-bA-mKG">
-                                        <rect key="frame" x="0.0" y="395" width="768" height="410"/>
+                                        <rect key="frame" x="0.0" y="395" width="768" height="409"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="45" y="1" width="678" height="407"/>
@@ -451,7 +451,7 @@
                             <tableViewSection id="tlI-20-0KF">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="104" id="aNa-jD-uop">
-                                        <rect key="frame" x="0.0" y="812" width="768" height="106"/>
+                                        <rect key="frame" x="0.0" y="812" width="768" height="105"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="45" y="1" width="678" height="103"/>
@@ -535,6 +535,38 @@
     <resources>
         <image name="sd-pull.png" width="767" height="253"/>
     </resources>
+    <classes>
+        <class className="DetailViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="completeTask:"/>
+                <relationship kind="action" name="handlePinch:" candidateClass="UIPinchGestureRecognizer"/>
+                <relationship kind="action" name="reportTaskData:"/>
+                <relationship kind="outlet" name="clarifyingInfo" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="fallbackMessage" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="hoursText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageActualPhoto" candidateClass="UITableViewCell"/>
+                <relationship kind="outlet" name="imageTitleLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="instructionIdLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="instructionMessageLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="minutesText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="prompt" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="secondsText" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="taskDone" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="taskResultReporter" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
+        <class className="MasterViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="masterTableView" candidateClass="UITableView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
