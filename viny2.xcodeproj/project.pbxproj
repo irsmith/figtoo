@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0ADBB616728F930061EF77 /* Blancovinkje.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0ADBB516728F930061EF77 /* Blancovinkje.png */; };
+		BB0ADBC11672B4080061EF77 /* AudioTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0ADBC01672B4080061EF77 /* AudioTest.m */; };
+		BB0ADBC91672BC460061EF77 /* beep1c.caf in Resources */ = {isa = PBXBuildFile; fileRef = BB0ADBC81672BC450061EF77 /* beep1c.caf */; };
+		BB0ADBCB1672BDB60061EF77 /* beepkind.caf in Resources */ = {isa = PBXBuildFile; fileRef = BB0ADBCA1672BDB60061EF77 /* beepkind.caf */; };
+		BB0ADBCD1672BFB60061EF77 /* badumm.caf in Resources */ = {isa = PBXBuildFile; fileRef = BB0ADBCC1672BFB60061EF77 /* badumm.caf */; };
+		BB1A3CAA1676436B0033CC54 /* sd-pull.png in Resources */ = {isa = PBXBuildFile; fileRef = BB1A3CA91676436B0033CC54 /* sd-pull.png */; };
+		BB24FB05166D854A00B03B64 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BB24FB04166D854A00B03B64 /* DateUtils.m */; };
+		BB24FB08166D856600B03B64 /* CountdownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB24FB07166D856600B03B64 /* CountdownTimer.m */; };
+		BB60A7EA165FF118003402E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A7E9165FF118003402E5 /* UIKit.framework */; };
+		BB60A7EC165FF118003402E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A7EB165FF118003402E5 /* Foundation.framework */; };
+		BB60A7EE165FF118003402E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A7ED165FF118003402E5 /* CoreGraphics.framework */; };
+		BB60A7F4165FF118003402E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB60A7F2165FF118003402E5 /* InfoPlist.strings */; };
+		BB60A7F6165FF118003402E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A7F5165FF118003402E5 /* main.m */; };
+		BB60A7FA165FF118003402E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A7F9165FF118003402E5 /* AppDelegate.m */; };
+		BB60A800165FF119003402E5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB60A7FF165FF119003402E5 /* Default-568h@2x.png */; };
+		BB60A803165FF119003402E5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB60A801165FF119003402E5 /* MainStoryboard_iPhone.storyboard */; };
+		BB60A806165FF119003402E5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB60A804165FF119003402E5 /* MainStoryboard_iPad.storyboard */; };
+		BB60A809165FF119003402E5 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A808165FF119003402E5 /* MasterViewController.m */; };
+		BB60A80C165FF119003402E5 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A80B165FF119003402E5 /* DetailViewController.m */; };
+		BB60A814165FF119003402E5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A813165FF119003402E5 /* SenTestingKit.framework */; };
+		BB60A815165FF119003402E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A7E9165FF118003402E5 /* UIKit.framework */; };
+		BB60A816165FF119003402E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A7EB165FF118003402E5 /* Foundation.framework */; };
+		BB60A81E165FF119003402E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB60A81C165FF119003402E5 /* InfoPlist.strings */; };
+		BB60A821165FF119003402E5 /* viny2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A820165FF119003402E5 /* viny2Tests.m */; };
+		BB60A82F165FFCE7003402E5 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A82B165FFCE7003402E5 /* DataController.m */; };
+		BB60A830165FFCE7003402E5 /* ManualInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60A82D165FFCE7003402E5 /* ManualInstruction.m */; };
+		BB60A831165FFCE7003402E5 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BB60A82E165FFCE7003402E5 /* ReadMe.rtf */; };
+		BBB55E30166A819E00C1BFAE /* 24v-converter-box.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB55E27166A819E00C1BFAE /* 24v-converter-box.jpg */; };
+		BBB55E31166A819E00C1BFAE /* 63103.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB55E28166A819E00C1BFAE /* 63103.json */; };
+		BBB55E32166A819E00C1BFAE /* 63115.json in Resources */ = {isa = PBXBuildFile; fileRef = BBB55E29166A819E00C1BFAE /* 63115.json */; };
+		BBB55E33166A819E00C1BFAE /* external-spotlight-d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB55E2A166A819E00C1BFAE /* external-spotlight-d.jpg */; };
+		BBB55E34166A819E00C1BFAE /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB55E2C166A819E00C1BFAE /* PhotoViewController.m */; };
+		BBB55E35166A819E00C1BFAE /* ProjectConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BBB55E2E166A819E00C1BFAE /* ProjectConstants.m */; };
+		BBB55E36166A819E00C1BFAE /* view-spotlight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB55E2F166A819E00C1BFAE /* view-spotlight.jpg */; };
+		BBB55E40166A861300C1BFAE /* crio-box-led.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBB55E3F166A861300C1BFAE /* crio-box-led.jpg */; };
+		BBCDB1BD16737D31005B6833 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCDB1BC16737D31005B6833 /* AudioToolbox.framework */; };
+		BBF7E316166F0156006A53D9 /* CountdownTimerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF7E315166F0156006A53D9 /* CountdownTimerTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB60A817165FF119003402E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB60A7DC165FF118003402E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB60A7E4165FF118003402E5;
+			remoteInfo = viny2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0ADBB516728F930061EF77 /* Blancovinkje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blancovinkje.png; sourceTree = "<group>"; };
+		BB0ADBC01672B4080061EF77 /* AudioTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioTest.m; sourceTree = "<group>"; };
+		BB0ADBC81672BC450061EF77 /* beep1c.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beep1c.caf; sourceTree = "<group>"; };
+		BB0ADBCA1672BDB60061EF77 /* beepkind.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = beepkind.caf; sourceTree = "<group>"; };
+		BB0ADBCC1672BFB60061EF77 /* badumm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = badumm.caf; sourceTree = "<group>"; };
+		BB1A3CA91676436B0033CC54 /* sd-pull.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sd-pull.png"; sourceTree = "<group>"; };
+		BB24FB03166D854A00B03B64 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtils.h; sourceTree = "<group>"; };
+		BB24FB04166D854A00B03B64 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtils.m; sourceTree = "<group>"; };
+		BB24FB06166D856600B03B64 /* CountdownTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountdownTimer.h; sourceTree = "<group>"; };
+		BB24FB07166D856600B03B64 /* CountdownTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountdownTimer.m; sourceTree = "<group>"; };
+		BB60A7E5165FF118003402E5 /* viny2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viny2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB60A7E9165FF118003402E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB60A7EB165FF118003402E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB60A7ED165FF118003402E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB60A7F1165FF118003402E5 /* viny2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viny2-Info.plist"; sourceTree = "<group>"; };
+		BB60A7F3165FF118003402E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB60A7F5165FF118003402E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB60A7F7165FF118003402E5 /* viny2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "viny2-Prefix.pch"; sourceTree = "<group>"; };
+		BB60A7F8165FF118003402E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB60A7F9165FF118003402E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB60A7FB165FF118003402E5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BB60A7FD165FF119003402E5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BB60A7FF165FF119003402E5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BB60A802165FF119003402E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BB60A805165FF119003402E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BB60A807165FF119003402E5 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BB60A808165FF119003402E5 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BB60A80A165FF119003402E5 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BB60A80B165FF119003402E5 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BB60A812165FF119003402E5 /* viny2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viny2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB60A813165FF119003402E5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB60A81B165FF119003402E5 /* viny2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "viny2Tests-Info.plist"; sourceTree = "<group>"; };
+		BB60A81D165FF119003402E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB60A81F165FF119003402E5 /* viny2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = viny2Tests.h; sourceTree = "<group>"; };
+		BB60A820165FF119003402E5 /* viny2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = viny2Tests.m; sourceTree = "<group>"; };
+		BB60A82A165FFCE7003402E5 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		BB60A82B165FFCE7003402E5 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; };
+		BB60A82C165FFCE7003402E5 /* ManualInstruction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualInstruction.h; sourceTree = "<group>"; };
+		BB60A82D165FFCE7003402E5 /* ManualInstruction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualInstruction.m; sourceTree = "<group>"; };
+		BB60A82E165FFCE7003402E5 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		BBB55E27166A819E00C1BFAE /* 24v-converter-box.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "24v-converter-box.jpg"; sourceTree = "<group>"; };
+		BBB55E28166A819E00C1BFAE /* 63103.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 63103.json; sourceTree = "<group>"; };
+		BBB55E29166A819E00C1BFAE /* 63115.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 63115.json; sourceTree = "<group>"; };
+		BBB55E2A166A819E00C1BFAE /* external-spotlight-d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "external-spotlight-d.jpg"; sourceTree = "<group>"; };
+		BBB55E2B166A819E00C1BFAE /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		BBB55E2C166A819E00C1BFAE /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		BBB55E2D166A819E00C1BFAE /* ProjectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectConstants.h; sourceTree = "<group>"; };
+		BBB55E2E166A819E00C1BFAE /* ProjectConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectConstants.m; sourceTree = "<group>"; };
+		BBB55E2F166A819E00C1BFAE /* view-spotlight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "view-spotlight.jpg"; sourceTree = "<group>"; };
+		BBB55E3F166A861300C1BFAE /* crio-box-led.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crio-box-led.jpg"; sourceTree = "<group>"; };
+		BBCDB1BC16737D31005B6833 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BBF7E315166F0156006A53D9 /* CountdownTimerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountdownTimerTest.m; path = ../viny2/CountdownTimerTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB60A7E2165FF118003402E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBCDB1BD16737D31005B6833 /* AudioToolbox.framework in Frameworks */,
+				BB60A7EA165FF118003402E5 /* UIKit.framework in Frameworks */,
+				BB60A7EC165FF118003402E5 /* Foundation.framework in Frameworks */,
+				BB60A7EE165FF118003402E5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60A80E165FF119003402E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60A814165FF119003402E5 /* SenTestingKit.framework in Frameworks */,
+				BB60A815165FF119003402E5 /* UIKit.framework in Frameworks */,
+				BB60A816165FF119003402E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB60A7DA165FF118003402E5 = {
+			isa = PBXGroup;
+			children = (
+				BBCDB1BC16737D31005B6833 /* AudioToolbox.framework */,
+				BB60A7EF165FF118003402E5 /* viny2 */,
+				BB60A819165FF119003402E5 /* viny2Tests */,
+				BB60A7E8165FF118003402E5 /* Frameworks */,
+				BB60A7E6165FF118003402E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB60A7E6165FF118003402E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB60A7E5165FF118003402E5 /* viny2.app */,
+				BB60A812165FF119003402E5 /* viny2Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB60A7E8165FF118003402E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB60A7E9165FF118003402E5 /* UIKit.framework */,
+				BB60A7EB165FF118003402E5 /* Foundation.framework */,
+				BB60A7ED165FF118003402E5 /* CoreGraphics.framework */,
+				BB60A813165FF119003402E5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB60A7EF165FF118003402E5 /* viny2 */ = {
+			isa = PBXGroup;
+			children = (
+				BBF24722166ADD640090BAA8 /* dataModel */,
+				BBB55E38166A855A00C1BFAE /* data */,
+				BBB55E2B166A819E00C1BFAE /* PhotoViewController.h */,
+				BBB55E2C166A819E00C1BFAE /* PhotoViewController.m */,
+				BBB55E2D166A819E00C1BFAE /* ProjectConstants.h */,
+				BBB55E2E166A819E00C1BFAE /* ProjectConstants.m */,
+				BB60A82A165FFCE7003402E5 /* DataController.h */,
+				BB60A82B165FFCE7003402E5 /* DataController.m */,
+				BB60A82E165FFCE7003402E5 /* ReadMe.rtf */,
+				BB60A7F8165FF118003402E5 /* AppDelegate.h */,
+				BB60A7F9165FF118003402E5 /* AppDelegate.m */,
+				BB60A801165FF119003402E5 /* MainStoryboard_iPhone.storyboard */,
+				BB60A804165FF119003402E5 /* MainStoryboard_iPad.storyboard */,
+				BB60A807165FF119003402E5 /* MasterViewController.h */,
+				BB60A808165FF119003402E5 /* MasterViewController.m */,
+				BB60A80A165FF119003402E5 /* DetailViewController.h */,
+				BB60A80B165FF119003402E5 /* DetailViewController.m */,
+				BB60A7F0165FF118003402E5 /* Supporting Files */,
+				BB24FB03166D854A00B03B64 /* DateUtils.h */,
+				BB24FB04166D854A00B03B64 /* DateUtils.m */,
+				BB24FB06166D856600B03B64 /* CountdownTimer.h */,
+				BB24FB07166D856600B03B64 /* CountdownTimer.m */,
+			);
+			path = viny2;
+			sourceTree = "<group>";
+		};
+		BB60A7F0165FF118003402E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1A3CA91676436B0033CC54 /* sd-pull.png */,
+				BB0ADBCC1672BFB60061EF77 /* badumm.caf */,
+				BB0ADBCA1672BDB60061EF77 /* beepkind.caf */,
+				BB0ADBC81672BC450061EF77 /* beep1c.caf */,
+				BB0ADBB516728F930061EF77 /* Blancovinkje.png */,
+				BB60A7F1165FF118003402E5 /* viny2-Info.plist */,
+				BB60A7F2165FF118003402E5 /* InfoPlist.strings */,
+				BB60A7F5165FF118003402E5 /* main.m */,
+				BB60A7F7165FF118003402E5 /* viny2-Prefix.pch */,
+				BB60A7FB165FF118003402E5 /* Default.png */,
+				BB60A7FD165FF119003402E5 /* Default@2x.png */,
+				BB60A7FF165FF119003402E5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB60A819165FF119003402E5 /* viny2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BBF7E315166F0156006A53D9 /* CountdownTimerTest.m */,
+				BB60A81F165FF119003402E5 /* viny2Tests.h */,
+				BB60A820165FF119003402E5 /* viny2Tests.m */,
+				BB60A81A165FF119003402E5 /* Supporting Files */,
+				BB0ADBC01672B4080061EF77 /* AudioTest.m */,
+			);
+			path = viny2Tests;
+			sourceTree = "<group>";
+		};
+		BB60A81A165FF119003402E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB60A81B165FF119003402E5 /* viny2Tests-Info.plist */,
+				BB60A81C165FF119003402E5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBB55E38166A855A00C1BFAE /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BBB55E3A166A857300C1BFAE /* 63115 */,
+				BBB55E39166A856900C1BFAE /* 63103 */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		BBB55E39166A856900C1BFAE /* 63103 */ = {
+			isa = PBXGroup;
+			children = (
+				BBB55E2F166A819E00C1BFAE /* view-spotlight.jpg */,
+				BBB55E2A166A819E00C1BFAE /* external-spotlight-d.jpg */,
+				BBB55E28166A819E00C1BFAE /* 63103.json */,
+			);
+			name = 63103;
+			sourceTree = "<group>";
+		};
+		BBB55E3A166A857300C1BFAE /* 63115 */ = {
+			isa = PBXGroup;
+			children = (
+				BBB55E3F166A861300C1BFAE /* crio-box-led.jpg */,
+				BBB55E27166A819E00C1BFAE /* 24v-converter-box.jpg */,
+				BBB55E29166A819E00C1BFAE /* 63115.json */,
+			);
+			name = 63115;
+			sourceTree = "<group>";
+		};
+		BBF24722166ADD640090BAA8 /* dataModel */ = {
+			isa = PBXGroup;
+			children = (
+				BB60A82D165FFCE7003402E5 /* ManualInstruction.m */,
+				BB60A82C165FFCE7003402E5 /* ManualInstruction.h */,
+			);
+			name = dataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB60A7E4165FF118003402E5 /* viny2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB60A824165FF119003402E5 /* Build configuration list for PBXNativeTarget "viny2" */;
+			buildPhases = (
+				BB60A7E1165FF118003402E5 /* Sources */,
+				BB60A7E2165FF118003402E5 /* Frameworks */,
+				BB60A7E3165FF118003402E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viny2;
+			productName = viny2;
+			productReference = BB60A7E5165FF118003402E5 /* viny2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB60A811165FF119003402E5 /* viny2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB60A827165FF119003402E5 /* Build configuration list for PBXNativeTarget "viny2Tests" */;
+			buildPhases = (
+				BB60A80D165FF119003402E5 /* Sources */,
+				BB60A80E165FF119003402E5 /* Frameworks */,
+				BB60A80F165FF119003402E5 /* Resources */,
+				BB60A810165FF119003402E5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB60A818165FF119003402E5 /* PBXTargetDependency */,
+			);
+			name = viny2Tests;
+			productName = viny2Tests;
+			productReference = BB60A812165FF119003402E5 /* viny2Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB60A7DC165FF118003402E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Smith, Irene S. (ARC-TI)[Stinger Ghaffarian Technologies Inc. (SGT Inc.)]";
+			};
+			buildConfigurationList = BB60A7DF165FF118003402E5 /* Build configuration list for PBXProject "viny2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB60A7DA165FF118003402E5;
+			productRefGroup = BB60A7E6165FF118003402E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB60A7E4165FF118003402E5 /* viny2 */,
+				BB60A811165FF119003402E5 /* viny2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB60A7E3165FF118003402E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60A7F4165FF118003402E5 /* InfoPlist.strings in Resources */,
+				BB60A800165FF119003402E5 /* Default-568h@2x.png in Resources */,
+				BB60A803165FF119003402E5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BB60A806165FF119003402E5 /* MainStoryboard_iPad.storyboard in Resources */,
+				BB60A831165FFCE7003402E5 /* ReadMe.rtf in Resources */,
+				BBB55E30166A819E00C1BFAE /* 24v-converter-box.jpg in Resources */,
+				BBB55E31166A819E00C1BFAE /* 63103.json in Resources */,
+				BBB55E32166A819E00C1BFAE /* 63115.json in Resources */,
+				BBB55E33166A819E00C1BFAE /* external-spotlight-d.jpg in Resources */,
+				BBB55E36166A819E00C1BFAE /* view-spotlight.jpg in Resources */,
+				BBB55E40166A861300C1BFAE /* crio-box-led.jpg in Resources */,
+				BB0ADBB616728F930061EF77 /* Blancovinkje.png in Resources */,
+				BB0ADBC91672BC460061EF77 /* beep1c.caf in Resources */,
+				BB0ADBCB1672BDB60061EF77 /* beepkind.caf in Resources */,
+				BB0ADBCD1672BFB60061EF77 /* badumm.caf in Resources */,
+				BB1A3CAA1676436B0033CC54 /* sd-pull.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60A80F165FF119003402E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60A81E165FF119003402E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB60A810165FF119003402E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB60A7E1165FF118003402E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60A7F6165FF118003402E5 /* main.m in Sources */,
+				BB60A7FA165FF118003402E5 /* AppDelegate.m in Sources */,
+				BB60A809165FF119003402E5 /* MasterViewController.m in Sources */,
+				BB60A80C165FF119003402E5 /* DetailViewController.m in Sources */,
+				BB60A82F165FFCE7003402E5 /* DataController.m in Sources */,
+				BB60A830165FFCE7003402E5 /* ManualInstruction.m in Sources */,
+				BBB55E34166A819E00C1BFAE /* PhotoViewController.m in Sources */,
+				BBB55E35166A819E00C1BFAE /* ProjectConstants.m in Sources */,
+				BB24FB05166D854A00B03B64 /* DateUtils.m in Sources */,
+				BB24FB08166D856600B03B64 /* CountdownTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB60A80D165FF119003402E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB60A821165FF119003402E5 /* viny2Tests.m in Sources */,
+				BBF7E316166F0156006A53D9 /* CountdownTimerTest.m in Sources */,
+				BB0ADBC11672B4080061EF77 /* AudioTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB60A818165FF119003402E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB60A7E4165FF118003402E5 /* viny2 */;
+			targetProxy = BB60A817165FF119003402E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB60A7F2165FF118003402E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB60A7F3165FF118003402E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB60A801165FF119003402E5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB60A802165FF119003402E5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BB60A804165FF119003402E5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB60A805165FF119003402E5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BB60A81C165FF119003402E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB60A81D165FF119003402E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB60A822165FF119003402E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB60A823165FF119003402E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB60A825165FF119003402E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viny2/viny2-Prefix.pch";
+				INFOPLIST_FILE = "viny2/viny2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB60A826165FF119003402E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viny2/viny2-Prefix.pch";
+				INFOPLIST_FILE = "viny2/viny2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB60A828165FF119003402E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/viny2.app/viny2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viny2/viny2-Prefix.pch";
+				INFOPLIST_FILE = "viny2Tests/viny2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BB60A829165FF119003402E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/viny2.app/viny2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "viny2/viny2-Prefix.pch";
+				INFOPLIST_FILE = "viny2Tests/viny2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB60A7DF165FF118003402E5 /* Build configuration list for PBXProject "viny2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60A822165FF119003402E5 /* Debug */,
+				BB60A823165FF119003402E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB60A824165FF119003402E5 /* Build configuration list for PBXNativeTarget "viny2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60A825165FF119003402E5 /* Debug */,
+				BB60A826165FF119003402E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB60A827165FF119003402E5 /* Build configuration list for PBXNativeTarget "viny2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB60A828165FF119003402E5 /* Debug */,
+				BB60A829165FF119003402E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB60A7DC165FF118003402E5 /* Project object */;
+}
